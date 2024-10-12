@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:backgroundTint="#FFFFFF">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    app:layout_constraintBottom_toTopOf="@+id/textviewdesc1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title1"
+                    app:srcCompat="@drawable/img1" />
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="289dp"
+                    android:layout_height="71dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="52dp"
+                    android:layout_marginEnd="104dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Qaqlasht Meadows Chitral – Magnificent Beauty "
+                    android:textColor="#0B0B0B"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/img1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviewdesc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qaqlasht Meadows is a wide, stunning plateau in the Chitral district of the Khyber Pakhtunkhwa province in northern Pakistan. It offers a beautiful landscape and an altitude of about 8,000 feet (2,438 meters) above sea level, which offers a stunning panoramic view of the surrounding Hindu Kush Mountains. In this blog, we will share some interesting facts and things to do in Qaqlasht Meadows.
+
+How To Reach To Qaqlasht Meadows?
+To cover the charming Qaqlasht meadows distance, follow these steps:
+
+Arrival in Qaqlasht:
+Your journey begins with reaching Qaqlasht, the city at the heart of the Qaqlasht region. You can reach Chitral by air, road, or a combination.
+
+By Air:
+Pakistan International Airlines (PIA) operates flights between Islamabad International Airport and Chitral. Flight schedules may vary, so it is recommended that you check the flight schedule on the airline’s website.
+
+By Road:
+Take a bus or car from Islamabad to Chitral via the Lowari Tunnel or Lowari Pass (depending on the season). The flight time may be around 10 to 12 hours. Alternatively, you can take an 8—to 10-hour road trip from Peshawar to Chitral.
+
+Trek to Qaqlasht Meadows:
+With Chitral behind you, trek about 80 kilometers (50 miles) to Qaqlasht Meadows. You can hire a local taxi or rent an ATV to navigate the route. Depending on road conditions, the journey will take 2 to 3 hours.
+
+Remember that road conditions are very bad, especially during the monsoon or winter. Always assess the weather forecast and road conditions before embarking on your trip. Local guides and tour operators can advise on ideal times to visit and prevailing conditions."
+                    android:textColor="#040303"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.354"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

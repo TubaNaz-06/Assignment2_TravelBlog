@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintlayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#FDFDFD">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="331dp"
+        android:layout_height="237dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img1" />
+
+    <TextView
+        android:id="@+id/footer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="7dp"
+        android:text="Saba Ghani at September 24, 2024"
+        app:layout_constraintBottom_toTopOf="@+id/title1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="289dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="7dp"
+        android:text="Qaqlasht Meadows Chitral – Magnificent Beauty "
+        android:textColor="#0B0B0B"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/desc1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footer1" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="313dp"
+        android:layout_height="84dp"
+        android:text="Qaqlasht Meadows Chitral - Magnificent Beauty Qaqlasht Meadows is a wide, stunning plateau in the Chitral district of the Khyber Pakhtunkhwa province in northern Pakistan. It offers a beautiful landscape and an altitude of about 8,000 feet (2,438 meters) above sea level, which offers a stunning pan […]"
+        android:textColor="#040303"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title1" />
+
+    <TextView
+        android:id="@+id/readmore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="Readmore"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/title1"
+        app:layout_constraintTop_toBottomOf="@+id/desc1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
